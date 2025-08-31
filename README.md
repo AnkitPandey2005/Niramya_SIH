@@ -1,4 +1,4 @@
-> **Niramya** is a **Smart India Hackathon (SIH) project** designed to provide **accessible healthcare** through  
+<head>**Niramya** is a **Smart India Hackathon (SIH) project** designed to provide **accessible healthcare** through  </head>
 > - **AI-driven symptom checking**  
 > - **Tele-consultation with doctors**  
 > - **Voice-enabled chatbot** for low-literacy users  
@@ -69,7 +69,9 @@ Add .env to .gitignore before pushing your code.
 Example .env file for the backend (/server/.env):
 
 PORT=5000
+
 MONGO_URI=your_mongodb_connection_string
+
 JWT_SECRET=your_secret_key
 
 
