@@ -131,3 +131,5 @@ API requests are proxied (via vite.config.ts).
 │── tailwind.config.js # Tailwind setup
 │── tsconfig.* # TypeScript configs
 </pre>
+
+Deploy Link :-  https://niramya.netlify.app/
