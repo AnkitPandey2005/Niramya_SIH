@@ -1,4 +1,5 @@
-<head>**Niramya** is a **Smart India Hackathon (SIH) project** designed to provide **accessible healthcare** through  </head>
+<h1 align="center"> 🩺 Niramya – Free From Illness </h1>
+<h3 align="center"> Smart India Hackathon (SIH) Project </h3>
 > - **AI-driven symptom checking**  
 > - **Tele-consultation with doctors**  
 > - **Voice-enabled chatbot** for low-literacy users  
