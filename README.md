@@ -1,10 +1,11 @@
 <h1 align="center"> 🩺 Niramya – Free From Illness </h1>
 <h3 align="center"> Smart India Hackathon (SIH) Project </h3>
+<pre>
 > - **AI-driven symptom checking**  
 > - **Tele-consultation with doctors**  
 > - **Voice-enabled chatbot** for low-literacy users  
 > - **Low-bandwidth optimization** for rural connectivity  
-
+</pre>
 ---
 
 ## 🏥 Problem Statement
