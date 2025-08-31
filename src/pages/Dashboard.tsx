@@ -166,26 +166,14 @@ const Dashboard = () => {
                   <Video className="h-6 w-6 text-blue-600" />
                   <span className="font-medium">Book Consultation</span>
                 </button>
-                <button
-  className="flex items-center space-x-3 p-4 border border-gray-200 rounded-lg hover:bg-green-50 hover:border-green-300 transition-all"
-  onClick={() => {
-    if (window.OmnidimensionWebWidget && typeof window.OmnidimensionWebWidget.open === 'function') {
-      window.OmnidimensionWebWidget.open();
-    } else {
-      alert('Chatbot is not available.');
-    }
-  }}
->
-  <MessageSquare className="h-6 w-6 text-green-600" />
-  <span className="font-medium">AI Health Check</span>
-</button>
+            
                 <button className="flex items-center space-x-3 p-4 border border-gray-200 rounded-lg hover:bg-purple-50 hover:border-purple-300 transition-all">
                   <Pill className="h-6 w-6 text-purple-600" />
-                  <span className="font-medium">Find Medicine</span>
+                  <span className="font-medium"><a href="https://www.1mg.com/drugs-all-medicines">Find Medicine</a></span>
                 </button>
                 <button className="flex items-center space-x-3 p-4 border border-gray-200 rounded-lg hover:bg-orange-50 hover:border-orange-300 transition-all">
                   <Phone className="h-6 w-6 text-orange-600" />
-                  <span className="font-medium">Emergency Call</span>
+                  <span className="font-medium"><a href="tel:+101">Emergency Call</a></span>
                 </button>
               </div>
             </div>
@@ -310,7 +298,7 @@ const Dashboard = () => {
               <Pill className="h-16 w-16 text-gray-300 mx-auto mb-4" />
               <p className="text-gray-600">Search for medicines and find nearby pharmacies.</p>
               <button className="mt-4 bg-purple-600 text-white px-6 py-2 rounded-lg hover:bg-purple-700 transition-colors">
-                Find Medicine
+                <a href="https://www.1mg.com/drugs-all-medicines">Find Medicine</a>
               </button>
             </div>
           </div>

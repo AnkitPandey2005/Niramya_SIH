@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Play, Shield, Users, Zap, Globe } from 'lucide-react';
+import { useState } from "react";
+import hospitalVideo from "./hospital_video.mp4";
+
 
 const Home = () => {
   const stats = [
